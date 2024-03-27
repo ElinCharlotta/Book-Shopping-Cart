@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Product from '../components/Product/Product';
+import '../Styles.css/Books.css';
 
 function Books() {
     const [books, setBooks] = useState([]);
@@ -31,14 +32,14 @@ function Books() {
 
 
     return (
-        <div>
-            <h1>Books</h1>
-            <section className='book-list'>
-                <ul>
+        <section>
+            <h1>8 Classic Childrens books</h1>
+            <article className='book-list'>
+                <div>
                     {bookComponents}
-                </ul>
-            </section>
-        </div>
+                </div>
+            </article>
+        </section>
     )
 }
 export default Books;

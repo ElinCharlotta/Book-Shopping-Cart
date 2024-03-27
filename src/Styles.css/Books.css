@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.book-list{
+ color: #f9f9f9;    
+ font-size: 18px;
+ font-weight: 400;
+ flex-wrap: wrap;
+}

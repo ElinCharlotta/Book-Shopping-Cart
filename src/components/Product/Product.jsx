@@ -12,11 +12,15 @@ function Product(props) {
         <div>
             <article onClick={navigateToProduct} className='product' style={{ 
     backgroundColor: props.color }}>
-                <h2 className='book__title'>{props.title}</h2>
-                <h3 className='book__author'>{props.author}</h3>
+        <section className='product-book'>
+        <article className='border'></article>
+        <div className='book-text'>
+                <h2 className='book-title'>{props.title}</h2>
+                <h3 className='book-author'>{props.author}</h3>
       
-            </article>
-     
+                </div>
+            </section>
+     </article>
         </div>
     )
 }

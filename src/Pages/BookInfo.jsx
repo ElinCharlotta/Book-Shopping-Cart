@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import './BookInfo.css';
+import '../Styles.css/BookInfo.css';
 
 function BooksInfo() {
     const params = useParams();
@@ -25,7 +25,8 @@ function BooksInfo() {
         <div>
             {book && (
                 <>
-                < main className="book-details">
+                
+                < div className="book-details">
     
                     <section className="book" style={{ backgroundColor: book.color }}>
                         <h4 className='book__title'>{book.title}</h4>
@@ -33,7 +34,7 @@ function BooksInfo() {
                     </section>
                     <section className='book-info'>
                         <h3 className='book-info__title'>{book.title}</h3>
-                        <p className='book-author'>{book.author}</p>
+                        <p className='book-info__author'>{book.author}</p>
                         <p className='book-plot'>{book.plot}</p>
 
                         <article className="book-quotes">
@@ -43,7 +44,8 @@ function BooksInfo() {
                             <p className='book-publisher'>Publisher: {book.publisher}</p>
                         </article>
                     </section>
-                    </main>
+                    </div>
+                  
                 </>
             )}
         </div>

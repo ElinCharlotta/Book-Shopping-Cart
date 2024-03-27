@@ -1,0 +1,91 @@
+p {
+    color: rgb(255, 243, 226);
+
+
+}
+
+.book-details {
+    margin-top: 20%;
+    align-self: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.book {
+    padding: 10px;
+    margin: 10px;
+    width: 390px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0) 60%, #ffffff5e 100%);
+
+}
+.book__title{
+    color: #030303b0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 0;
+}
+
+.book__author{
+    font-size: 18px;
+    color: #030303b0;
+    font-weight: 400;
+
+}
+.book-info {
+    padding: 10px;
+    margin: 10px;
+    width: 390px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.book-plot {
+    text-align: left;
+}
+
+.book-info__title {
+    text-align: left;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgb(255, 243, 226);
+margin: 0;
+}
+
+.book-info__author {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    color:rgb(255, 243, 226);
+    text-align: left;
+
+
+}
+
+.book-quotes {
+    background: #4c4c4ca3;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.book-audience, .book-pages, .book-year, .book-publisher{
+    padding: 10px;
+    margin: 0;
+
+}
+
