@@ -14,9 +14,9 @@ function Product(props) {
     backgroundColor: props.color }}>
         <section className='product-book'>
         <article className='border'></article>
-        <div className='book-text'>
-                <h2 className='book-title'>{props.title}</h2>
-                <h3 className='book-author'>{props.author}</h3>
+        <div className='product-book-text'>
+                <h2 className='product-book-text__title'>{props.title}</h2>
+                <h3 className='produc-book-text__author'>{props.author}</h3>
       
                 </div>
             </section>

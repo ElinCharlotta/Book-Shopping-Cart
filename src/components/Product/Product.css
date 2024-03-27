@@ -1,9 +1,14 @@
+:root {
+    --light-gray-accent: #C4C4C414;
+    --dark-gray-text-color: #000000CC;
+    --white-text-color: #FFFFFF;
+    --border-color: linear-gradient(90deg, rgba(107, 107, 107, 0.863) 80%, rgba(66, 66, 66, 0.4) 28.65%, rgba(0, 0, 0, 0.4) 67.71%, rgba(151, 142, 142, 0.747) 100%);
+}
 
 .product {
     padding-left: 10px;
     margin: 10px;
     cursor: pointer;
-   
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -22,23 +27,23 @@
 }
 
 .border {
-    border: 1px solid #706c6cb7;
+    border: 1px solid rgba(107, 107, 107, 0.863);
     height: 239px;
     margin-right: 10px;
 }
 
 .product:hover {
-    background-color: lightgray;
+    color: var(--light-gray-accent);
 }
 
-.book-text{
+.product-book-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 10px;
 }
 
-.book-title {
+.product-book-text__title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     margin-bottom: 5px;
@@ -46,14 +51,14 @@
     margin-bottom: 0;
     letter-spacing: 0.03rem;
     margin-right: 10px;
+    color: var(--white-text-color);
 }
 
-.book-author {
+.produc-book-text__author {
     font-weight: 300;
     font-size: 14px;
-    color: #555;
+    color: var(--white-text-color);
     margin: 0;
-    color: #f9f9f9;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 0.04rem;
     margin-bottom: 10px;
