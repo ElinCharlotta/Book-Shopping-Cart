@@ -1,0 +1,20 @@
+.product {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product:hover {
+    background-color: lightgray; 
+}
+
+.book__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.book__author {
+    font-size: 14px;
+    color: #555;
+}
